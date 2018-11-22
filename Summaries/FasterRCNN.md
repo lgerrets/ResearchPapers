@@ -30,7 +30,7 @@ The 9 anchors are 128², 256² and 512², with aspect ratios 1:1, 1:2 and 2:1.
 
 Parameterization for each bounding boxes coordinates takes as an input: 4d vector of output of *reg* and 4d vector of an anchor (handcrafted formulas available in paper).
 
-The anchor boxes may cross image boundaries, in which case they were ignored at training time to avoid large error terms in the loss (reducing the number of boxes from 20k to 6k for a 1000x600 image). During testing, they do clipping.
+The anchor boxes may cross image boundaries, in which case they were ignored at training time to avoid large error terms in the loss (reducing the number of boxes from 20k to 6k for a 1000x600 image). During testing, they did clipping instead.
 
 The RPN training loss consists in: an entropy loss for *cls* and a smooth L1 loss for *reg*.
 

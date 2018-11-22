@@ -1,4 +1,8 @@
 
+# List of my summaries
+
+Each summary has a "Tags" line which can be conveniently used for `grep` purposes.
+
 ## Reinforcement Learning
 
 ## Computer Vision
