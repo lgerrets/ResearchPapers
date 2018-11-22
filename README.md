@@ -2,7 +2,7 @@
 
 I will try to update this repo with some of the research papers I studied to keep track of them. Taking notes on paper is always nice too, but this repo should be more helpful in the long run!
 
-[List] (Summaries/README.md) of all papers I summarized.
+[List](Summaries/README.md) of all papers I summarized.
 
 
 ## Methods
@@ -27,4 +27,4 @@ Points to look for in a paper (Reference : [Guide to Reading Academic Research P
 
 * Many insightful repos with keywords Research/Papers/Notes that got me into starting this
 
-* Discussion about nice workflows to follow on [Reddit] (https://www.reddit.com/r/MachineLearning/comments/9z1cvc/discussion_what_is_your_workflow_for_reading/)
+* Discussion about nice workflows to follow on [Reddit](https://www.reddit.com/r/MachineLearning/comments/9z1cvc/discussion_what_is_your_workflow_for_reading/)

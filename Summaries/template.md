@@ -1,8 +1,8 @@
 # <Title>
 
-<[link] () (arxiv...)> <link to the [latest version] ()>
+<[link]() (arxiv...)> <link to the [latest version]()>
 
-<[implementations] ()>
+<[implementations]()>
 
 ## TLDR
 
