@@ -6,7 +6,7 @@
 
 ## TLDR
 
-**Combine** region proposing and classification in a **unified** neural network with state-of-the-art **accuracy** and **speed**.
+**Combine** region proposal and classification in a **unified** neural network with state-of-the-art **accuracy** and **speed**.
 
 ## Aim
 
@@ -20,9 +20,9 @@ The **detection** and **region proposal** networks are pretrained separately and
 
 No multi-scale pyramid are computed because thay have "poor speed-accuracy" performances. Instead, 9 fixed **anchors** of different scales and aspect ratios were handcrafted and used.
 
-The **RPN** is plugged to the last shared convolutional layer. It can be seen as a slining window that, at each position, compute k bounding boxes based on k anchors. It mainly consists in 3 dense convolutional layers, of which 2 modules are *cls* and *reg*: for each anchor, *cls* predicts a scalar objectness in a bounding box and *reg* predicts the 4d bounding box coordinates.
+The **RPN** is plugged to the last shared convolutional layer. It can be seen as a sliding window that, at each position, computes k bounding boxes based on k anchors. It mainly consists in 3 dense convolutional layers, of which 2 modules are *cls* and *reg*: for each anchor, *cls* predicts a scalar objectness in a bounding box and *reg* predicts the 4d bounding box coordinates.
 
-0.7-**Non Maximum Suppression (NMS)** reduce the number of bounding boxes that are finally proposed for region pooling. At training time, 2 losses are computed for *reg* and *cls* based on a balanced subset of these bounding boxes.
+0.7-**Non Maximum Suppression (NMS)** reduces the number of bounding boxes that are finally proposed for region pooling. At training time, 2 losses are computed for *reg* and *cls* based on a balanced subset of these bounding boxes.
 
 ## Technical details
 
@@ -42,11 +42,11 @@ Implementation on Caffe.
 
 They took 2 previous CNN models and built RPN on top of both: Zeiler and Fergus (ZF) model (5 sharable conv layers) and VGG-16 (13 sharable layers).
 
-VGG16 based model gives better but slower results than ZF (5fps and 17fps). As a comparison, Selective Search had 0.5fps.
+VGG16 based model gave better but slower results than ZF (5fps and 17fps). As a comparison, Selective Search had 0.5fps.
 
-RPN+VGG gives better mAP than Selective Search on PASCAL VOC 07 and 07+12 with less proposals.
+RPN+VGG gave better mAP than Selective Search on PASCAL VOC 07 and 07+12 with less proposals.
 
-On PASCAL VOC 2007, for required IoU between about 0.5 and 0.75, RPNs have better recalls than SS and EB even with a low amount of proposals. However, when IoU increases, RPNs' recall significantly drop.
+On PASCAL VOC 2007, for required IoU between about 0.5 and 0.75, RPNs had better recalls than SS and EB even with a low amount of proposals. However, when IoU increases, RPNs' recall significantly dropped.
 
 ## My thoughts and takeaways
 
