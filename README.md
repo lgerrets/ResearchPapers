@@ -24,7 +24,7 @@ Points to look for in a paper (Reference : [Guide to Reading Academic Research P
 
 ## Related to this repo
 
-Other people have similar or other methods to keep track of the research papers thay studied. All of them are inspiring:
+Other people have similar or other methods to keep track of the research papers they studied. All of them are inspiring:
 
 * Many insightful github repos with keywords Research/Papers/Notes got me into starting doing this
 

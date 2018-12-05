@@ -1,46 +1,46 @@
-# <Title>
+# Title of papers
 
-<[link]() (arxiv...)> <link to the [latest version]()>
+> [link]() (arxiv...)
 
-<[implementations]()>
+> [implementations]()
 
 ## TLDR
 
 ## Aim
 
-<objectives, contributions>
+> objectives, contributions
 
 ## Methods
 
-<whats new in their approaches>
+> whats new in their approaches
 
 ## Technical details
 
-<mathematical notations, proofs>
+> mathematical notations, proofs
 
-<setups>
+> setups
 
-<parameterizing>
+> parameterizing
 
 ## Experiments - results
 
-<comparable experiments on typical dataset/environments...>
+> comparable experiments on typical dataset/environments...
 
-<breakthroughs>
+> breakthroughs
 
 ## My thoughts and takeaways
 
-<pros>
+> pros
 
-<cons>
+> cons
 
-<related stuff>
+> related stuff
 
 ## Top Figures
 
-<![Figure N](../Ressources/Abc/FigN.png "")>
+> ![Figure N](../Ressources/Abc/FigN.png "")
 
 ## Metadata
 
-<easily grep-able data: author list, title, published year, journal, tags, URL, reading depth, etc>
+> easily grep-able data: author list, title, published year,journal, tags, URL, reading depth, etc>
 
