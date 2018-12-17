@@ -1,6 +1,6 @@
 # Title of papers
 
-> [link]() (arxiv...)
+> [link]()
 
 > [implementations]()
 
@@ -12,7 +12,7 @@
 
 ## Methods
 
-> whats new in their approaches
+> what's new in their approaches
 
 ## Technical details
 
@@ -42,5 +42,5 @@
 
 ## Metadata
 
-> easily grep-able data: author list, title, published year,journal, tags, URL, reading depth, etc>
+> easily grep-able data: author list, title, published year, journal, tags, URL, reading depth, etc
 
